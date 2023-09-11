@@ -1,0 +1,38 @@
+package teste;
+
+import java.util.Scanner;
+
+import arvores.AVLint;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		AVLint avl = new AVLint();
+		String menu= "(xxxx{}zzzzzzz>  ARVORE  <zzzzzzz{}xxxxx) \n"
+				    + "1 - inserir um valor a tabela \n"
+				    + "2 - Apresentar o fator de balanceamento em posOrdem \n"
+				    + "0 - Sair ";
+		int escolha;
+		
+		do {
+			
+			System.out.println(menu);
+			escolha = in.nextInt();
+			switch (escolha) {
+			case 1:
+				
+				break;
+				
+			case 2:
+				
+				break;
+				
+			}
+			
+		}while(escolha != 0);
+		System.out.println("Programa encerrado");
+		
+	}
+
+}
